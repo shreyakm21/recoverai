@@ -1,0 +1,21 @@
+recoverai/
+│
+├── app/
+│   ├── main.py
+│   ├── models/
+│   ├── api/
+│   ├── services/
+│   └── database/
+│
+├── simulator/
+│
+├── data/
+│
+├── tests/
+│
+├── docs/
+│
+├── .env
+├── .gitignore
+├── requirements.txt
+└── README.md
