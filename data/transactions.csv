@@ -1,0 +1,201 @@
+payment_id,customer_id,merchant_id,amount,payment_method,status,failure_code,failure_reason,retry_count,recovery_status,recovered_amount,created_at
+pay_00001,cust_036,merchant_02,799,card,success,,,0,not_required,0,2026-08-30T13:50:43
+pay_00002,cust_012,merchant_05,1499,upi,success,,,0,not_required,0,2026-08-24T15:44:43
+pay_00003,cust_065,merchant_05,199,card,failed,GATEWAY_ERROR,Payment gateway temporarily unavailable,0,pending,0,2026-08-28T05:08:43
+pay_00004,cust_054,merchant_02,1999,netbanking,success,,,0,not_required,0,2026-08-24T15:51:43
+pay_00005,cust_021,merchant_04,1299,netbanking,success,,,0,not_required,0,2026-08-30T18:53:43
+pay_00006,cust_012,merchant_04,299,netbanking,failed,INSUFFICIENT_FUNDS,Customer account has insufficient funds,0,pending,0,2026-08-29T16:45:43
+pay_00007,cust_034,merchant_01,1999,upi,success,,,0,not_required,0,2026-08-23T23:48:43
+pay_00008,cust_011,merchant_05,999,netbanking,success,,,0,not_required,0,2026-08-26T13:18:43
+pay_00009,cust_006,merchant_02,999,upi,success,,,0,not_required,0,2026-08-30T01:40:43
+pay_00010,cust_049,merchant_03,1999,netbanking,success,,,0,not_required,0,2026-08-29T17:05:43
+pay_00011,cust_035,merchant_01,4999,card,failed,INSUFFICIENT_FUNDS,Customer account has insufficient funds,0,pending,0,2026-08-28T11:27:43
+pay_00012,cust_021,merchant_04,1499,netbanking,success,,,0,not_required,0,2026-08-28T01:49:43
+pay_00013,cust_029,merchant_03,199,card,success,,,0,not_required,0,2026-08-24T12:34:43
+pay_00014,cust_052,merchant_03,299,card,success,,,0,not_required,0,2026-08-27T06:31:43
+pay_00015,cust_041,merchant_02,1999,wallet,success,,,0,not_required,0,2026-08-24T09:47:43
+pay_00016,cust_019,merchant_03,499,card,success,,,0,not_required,0,2026-08-25T15:22:43
+pay_00017,cust_034,merchant_05,1499,wallet,success,,,0,not_required,0,2026-08-24T17:29:43
+pay_00018,cust_066,merchant_04,299,upi,success,,,0,not_required,0,2026-08-29T06:53:43
+pay_00019,cust_021,merchant_04,4999,upi,success,,,0,not_required,0,2026-08-29T02:55:43
+pay_00020,cust_060,merchant_05,999,upi,success,,,0,not_required,0,2026-08-24T01:56:43
+pay_00021,cust_069,merchant_03,1299,upi,success,,,0,not_required,0,2026-08-29T13:23:43
+pay_00022,cust_001,merchant_03,2499,card,failed,GATEWAY_ERROR,Payment gateway temporarily unavailable,0,pending,0,2026-08-25T16:46:43
+pay_00023,cust_039,merchant_05,4999,card,success,,,0,not_required,0,2026-08-29T15:36:43
+pay_00024,cust_068,merchant_01,4999,netbanking,failed,GATEWAY_ERROR,Payment gateway temporarily unavailable,0,pending,0,2026-08-24T17:22:43
+pay_00025,cust_047,merchant_03,799,upi,success,,,0,not_required,0,2026-08-29T14:07:43
+pay_00026,cust_011,merchant_04,299,card,failed,AUTH_FAILURE,Authentication or authorization failed,0,pending,0,2026-08-29T23:09:43
+pay_00027,cust_022,merchant_03,2499,wallet,failed,CUSTOMER_ABANDONED,Customer abandoned the payment flow,0,pending,0,2026-08-24T14:32:43
+pay_00028,cust_026,merchant_03,1499,netbanking,success,,,0,not_required,0,2026-08-24T17:24:43
+pay_00029,cust_058,merchant_01,799,card,success,,,0,not_required,0,2026-08-24T23:20:43
+pay_00030,cust_071,merchant_02,4999,card,failed,BANK_TIMEOUT,Temporary bank-side timeout,0,pending,0,2026-08-24T04:01:43
+pay_00031,cust_009,merchant_01,1299,upi,failed,BANK_TIMEOUT,Temporary bank-side timeout,0,pending,0,2026-08-28T06:09:43
+pay_00032,cust_063,merchant_02,2499,card,success,,,0,not_required,0,2026-08-27T16:37:43
+pay_00033,cust_074,merchant_04,799,wallet,success,,,0,not_required,0,2026-08-24T08:44:43
+pay_00034,cust_013,merchant_01,1499,netbanking,success,,,0,not_required,0,2026-08-28T16:40:43
+pay_00035,cust_007,merchant_01,199,wallet,success,,,0,not_required,0,2026-08-25T13:08:43
+pay_00036,cust_032,merchant_02,799,wallet,success,,,0,not_required,0,2026-08-29T14:49:43
+pay_00037,cust_060,merchant_02,299,wallet,failed,GATEWAY_ERROR,Payment gateway temporarily unavailable,0,pending,0,2026-08-27T16:36:43
+pay_00038,cust_013,merchant_01,2499,upi,success,,,0,not_required,0,2026-08-24T14:23:43
+pay_00039,cust_022,merchant_04,1999,wallet,success,,,0,not_required,0,2026-08-28T04:07:43
+pay_00040,cust_022,merchant_04,199,wallet,failed,CUSTOMER_ABANDONED,Customer abandoned the payment flow,0,pending,0,2026-08-30T04:39:43
+pay_00041,cust_055,merchant_05,1999,card,failed,CUSTOMER_ABANDONED,Customer abandoned the payment flow,0,pending,0,2026-08-27T14:46:43
+pay_00042,cust_075,merchant_05,199,netbanking,failed,GATEWAY_ERROR,Payment gateway temporarily unavailable,0,pending,0,2026-08-30T04:41:43
+pay_00043,cust_065,merchant_05,499,upi,failed,AUTH_FAILURE,Authentication or authorization failed,0,pending,0,2026-08-25T10:28:43
+pay_00044,cust_024,merchant_01,4999,upi,success,,,0,not_required,0,2026-08-29T22:47:43
+pay_00045,cust_052,merchant_01,4999,card,success,,,0,not_required,0,2026-08-28T04:26:43
+pay_00046,cust_080,merchant_01,1499,netbanking,success,,,0,not_required,0,2026-08-30T09:48:43
+pay_00047,cust_041,merchant_02,999,wallet,success,,,0,not_required,0,2026-08-28T12:53:43
+pay_00048,cust_041,merchant_01,199,wallet,failed,INSUFFICIENT_FUNDS,Customer account has insufficient funds,0,pending,0,2026-08-25T15:48:43
+pay_00049,cust_013,merchant_01,2499,card,success,,,0,not_required,0,2026-08-24T10:55:43
+pay_00050,cust_045,merchant_01,799,netbanking,success,,,0,not_required,0,2026-08-29T08:29:43
+pay_00051,cust_039,merchant_05,2499,upi,failed,CUSTOMER_ABANDONED,Customer abandoned the payment flow,0,pending,0,2026-08-24T16:19:43
+pay_00052,cust_039,merchant_01,499,netbanking,success,,,0,not_required,0,2026-08-24T13:13:43
+pay_00053,cust_020,merchant_03,999,card,failed,BANK_TIMEOUT,Temporary bank-side timeout,0,pending,0,2026-08-24T13:35:43
+pay_00054,cust_034,merchant_05,1999,netbanking,success,,,0,not_required,0,2026-08-28T13:04:43
+pay_00055,cust_012,merchant_04,999,upi,success,,,0,not_required,0,2026-08-30T06:47:43
+pay_00056,cust_021,merchant_04,2499,wallet,failed,GATEWAY_ERROR,Payment gateway temporarily unavailable,0,pending,0,2026-08-27T21:08:43
+pay_00057,cust_010,merchant_02,2499,upi,success,,,0,not_required,0,2026-08-29T14:07:43
+pay_00058,cust_071,merchant_02,1499,card,success,,,0,not_required,0,2026-08-24T05:36:43
+pay_00059,cust_046,merchant_02,799,upi,failed,INSUFFICIENT_FUNDS,Customer account has insufficient funds,0,pending,0,2026-08-30T09:46:43
+pay_00060,cust_053,merchant_05,499,card,success,,,0,not_required,0,2026-08-24T11:46:43
+pay_00061,cust_053,merchant_01,499,netbanking,success,,,0,not_required,0,2026-08-28T20:19:43
+pay_00062,cust_032,merchant_03,499,upi,success,,,0,not_required,0,2026-08-26T04:14:43
+pay_00063,cust_061,merchant_02,799,wallet,success,,,0,not_required,0,2026-08-30T10:05:43
+pay_00064,cust_029,merchant_01,799,wallet,success,,,0,not_required,0,2026-08-28T06:31:43
+pay_00065,cust_036,merchant_03,2499,wallet,success,,,0,not_required,0,2026-08-30T01:42:43
+pay_00066,cust_043,merchant_01,299,netbanking,success,,,0,not_required,0,2026-08-24T18:14:43
+pay_00067,cust_014,merchant_05,1499,netbanking,failed,INSUFFICIENT_FUNDS,Customer account has insufficient funds,0,pending,0,2026-08-30T10:13:43
+pay_00068,cust_056,merchant_05,2499,upi,success,,,0,not_required,0,2026-08-27T07:00:43
+pay_00069,cust_025,merchant_03,199,wallet,success,,,0,not_required,0,2026-08-24T07:13:43
+pay_00070,cust_047,merchant_04,299,netbanking,failed,AUTH_FAILURE,Authentication or authorization failed,0,pending,0,2026-08-28T14:51:43
+pay_00071,cust_039,merchant_05,999,wallet,success,,,0,not_required,0,2026-08-29T10:38:43
+pay_00072,cust_071,merchant_02,799,wallet,success,,,0,not_required,0,2026-08-27T11:55:43
+pay_00073,cust_023,merchant_05,4999,netbanking,success,,,0,not_required,0,2026-08-26T13:08:43
+pay_00074,cust_039,merchant_03,799,wallet,success,,,0,not_required,0,2026-08-30T20:33:43
+pay_00075,cust_042,merchant_04,1999,wallet,success,,,0,not_required,0,2026-08-23T23:00:43
+pay_00076,cust_061,merchant_02,299,netbanking,success,,,0,not_required,0,2026-08-25T01:04:43
+pay_00077,cust_012,merchant_02,999,card,success,,,0,not_required,0,2026-08-27T01:08:43
+pay_00078,cust_004,merchant_01,799,wallet,success,,,0,not_required,0,2026-08-29T04:25:43
+pay_00079,cust_059,merchant_04,4999,card,success,,,0,not_required,0,2026-08-30T00:46:43
+pay_00080,cust_064,merchant_04,799,card,success,,,0,not_required,0,2026-08-26T11:48:43
+pay_00081,cust_014,merchant_04,799,card,success,,,0,not_required,0,2026-08-30T19:09:43
+pay_00082,cust_060,merchant_01,2499,card,success,,,0,not_required,0,2026-08-24T23:13:43
+pay_00083,cust_059,merchant_02,1999,netbanking,success,,,0,not_required,0,2026-08-29T11:31:43
+pay_00084,cust_079,merchant_05,1499,wallet,success,,,0,not_required,0,2026-08-25T19:48:43
+pay_00085,cust_058,merchant_03,799,netbanking,success,,,0,not_required,0,2026-08-25T11:02:43
+pay_00086,cust_063,merchant_02,999,wallet,success,,,0,not_required,0,2026-08-24T22:19:43
+pay_00087,cust_035,merchant_03,1299,upi,failed,INSUFFICIENT_FUNDS,Customer account has insufficient funds,0,pending,0,2026-08-28T04:38:43
+pay_00088,cust_020,merchant_02,299,wallet,failed,GATEWAY_ERROR,Payment gateway temporarily unavailable,0,pending,0,2026-08-26T12:04:43
+pay_00089,cust_060,merchant_04,199,card,success,,,0,not_required,0,2026-08-24T16:29:43
+pay_00090,cust_075,merchant_01,4999,wallet,success,,,0,not_required,0,2026-08-26T10:18:43
+pay_00091,cust_039,merchant_04,1499,card,success,,,0,not_required,0,2026-08-26T20:36:43
+pay_00092,cust_056,merchant_04,199,wallet,success,,,0,not_required,0,2026-08-27T18:08:43
+pay_00093,cust_022,merchant_04,499,upi,success,,,0,not_required,0,2026-08-26T06:15:43
+pay_00094,cust_073,merchant_01,299,wallet,success,,,0,not_required,0,2026-08-24T03:02:43
+pay_00095,cust_007,merchant_03,1499,netbanking,failed,CUSTOMER_ABANDONED,Customer abandoned the payment flow,0,pending,0,2026-08-28T19:02:43
+pay_00096,cust_049,merchant_03,1499,netbanking,failed,INSUFFICIENT_FUNDS,Customer account has insufficient funds,0,pending,0,2026-08-27T00:30:43
+pay_00097,cust_003,merchant_05,199,netbanking,success,,,0,not_required,0,2026-08-25T12:14:43
+pay_00098,cust_004,merchant_02,799,upi,failed,BANK_TIMEOUT,Temporary bank-side timeout,0,pending,0,2026-08-30T09:40:43
+pay_00099,cust_017,merchant_04,299,card,success,,,0,not_required,0,2026-08-28T03:31:43
+pay_00100,cust_048,merchant_02,4999,upi,success,,,0,not_required,0,2026-08-27T22:41:43
+pay_00101,cust_040,merchant_01,4999,upi,success,,,0,not_required,0,2026-08-28T23:56:43
+pay_00102,cust_049,merchant_04,799,upi,success,,,0,not_required,0,2026-08-24T07:26:43
+pay_00103,cust_014,merchant_03,4999,upi,success,,,0,not_required,0,2026-08-28T02:21:43
+pay_00104,cust_006,merchant_03,2499,wallet,success,,,0,not_required,0,2026-08-24T10:07:43
+pay_00105,cust_065,merchant_03,199,wallet,success,,,0,not_required,0,2026-08-30T01:50:43
+pay_00106,cust_056,merchant_03,1999,card,success,,,0,not_required,0,2026-08-29T15:50:43
+pay_00107,cust_035,merchant_05,2499,wallet,success,,,0,not_required,0,2026-08-24T22:11:43
+pay_00108,cust_035,merchant_03,799,upi,success,,,0,not_required,0,2026-08-24T02:52:43
+pay_00109,cust_060,merchant_05,4999,wallet,failed,CUSTOMER_ABANDONED,Customer abandoned the payment flow,0,pending,0,2026-08-28T02:04:43
+pay_00110,cust_042,merchant_02,1999,card,success,,,0,not_required,0,2026-08-25T05:41:43
+pay_00111,cust_044,merchant_03,4999,netbanking,success,,,0,not_required,0,2026-08-27T22:07:43
+pay_00112,cust_025,merchant_01,799,wallet,success,,,0,not_required,0,2026-08-24T23:35:43
+pay_00113,cust_061,merchant_04,1999,upi,success,,,0,not_required,0,2026-08-28T03:02:43
+pay_00114,cust_032,merchant_03,4999,netbanking,failed,GATEWAY_ERROR,Payment gateway temporarily unavailable,0,pending,0,2026-08-26T06:14:43
+pay_00115,cust_045,merchant_04,2499,netbanking,success,,,0,not_required,0,2026-08-24T19:41:43
+pay_00116,cust_035,merchant_03,999,card,success,,,0,not_required,0,2026-08-25T16:45:43
+pay_00117,cust_016,merchant_05,499,card,failed,GATEWAY_ERROR,Payment gateway temporarily unavailable,0,pending,0,2026-08-27T06:30:43
+pay_00118,cust_076,merchant_05,4999,netbanking,failed,CUSTOMER_ABANDONED,Customer abandoned the payment flow,0,pending,0,2026-08-27T17:09:43
+pay_00119,cust_038,merchant_02,1299,card,success,,,0,not_required,0,2026-08-28T15:39:43
+pay_00120,cust_017,merchant_03,199,upi,success,,,0,not_required,0,2026-08-24T18:48:43
+pay_00121,cust_063,merchant_01,199,netbanking,success,,,0,not_required,0,2026-08-29T10:11:43
+pay_00122,cust_044,merchant_02,199,netbanking,success,,,0,not_required,0,2026-08-25T20:23:43
+pay_00123,cust_015,merchant_01,1499,wallet,success,,,0,not_required,0,2026-08-25T10:12:43
+pay_00124,cust_020,merchant_05,999,upi,failed,BANK_TIMEOUT,Temporary bank-side timeout,0,pending,0,2026-08-29T03:14:43
+pay_00125,cust_072,merchant_04,4999,card,success,,,0,not_required,0,2026-08-29T12:19:43
+pay_00126,cust_058,merchant_04,999,wallet,success,,,0,not_required,0,2026-08-26T12:47:43
+pay_00127,cust_079,merchant_01,799,card,success,,,0,not_required,0,2026-08-30T04:13:43
+pay_00128,cust_031,merchant_02,2499,upi,failed,BANK_TIMEOUT,Temporary bank-side timeout,0,pending,0,2026-08-29T01:46:43
+pay_00129,cust_077,merchant_04,999,upi,failed,CUSTOMER_ABANDONED,Customer abandoned the payment flow,0,pending,0,2026-08-25T17:38:43
+pay_00130,cust_010,merchant_02,999,card,failed,INSUFFICIENT_FUNDS,Customer account has insufficient funds,0,pending,0,2026-08-25T16:41:43
+pay_00131,cust_029,merchant_02,999,card,success,,,0,not_required,0,2026-08-24T15:57:43
+pay_00132,cust_077,merchant_05,999,wallet,failed,GATEWAY_ERROR,Payment gateway temporarily unavailable,0,pending,0,2026-08-27T08:40:43
+pay_00133,cust_035,merchant_05,2499,wallet,failed,INSUFFICIENT_FUNDS,Customer account has insufficient funds,0,pending,0,2026-08-26T06:45:43
+pay_00134,cust_006,merchant_04,1299,netbanking,success,,,0,not_required,0,2026-08-24T01:21:43
+pay_00135,cust_076,merchant_01,999,upi,failed,GATEWAY_ERROR,Payment gateway temporarily unavailable,0,pending,0,2026-08-24T07:35:43
+pay_00136,cust_061,merchant_05,1999,netbanking,success,,,0,not_required,0,2026-08-28T20:49:43
+pay_00137,cust_063,merchant_01,1999,netbanking,failed,AUTH_FAILURE,Authentication or authorization failed,0,pending,0,2026-08-25T21:38:43
+pay_00138,cust_014,merchant_02,1299,wallet,success,,,0,not_required,0,2026-08-27T04:59:43
+pay_00139,cust_052,merchant_05,199,wallet,success,,,0,not_required,0,2026-08-27T13:57:43
+pay_00140,cust_015,merchant_04,2499,upi,failed,INSUFFICIENT_FUNDS,Customer account has insufficient funds,0,pending,0,2026-08-27T04:23:43
+pay_00141,cust_060,merchant_04,199,card,success,,,0,not_required,0,2026-08-24T16:30:43
+pay_00142,cust_057,merchant_01,799,netbanking,success,,,0,not_required,0,2026-08-25T04:32:43
+pay_00143,cust_057,merchant_04,299,upi,success,,,0,not_required,0,2026-08-27T14:00:43
+pay_00144,cust_031,merchant_02,999,upi,success,,,0,not_required,0,2026-08-23T22:24:43
+pay_00145,cust_029,merchant_01,1999,upi,success,,,0,not_required,0,2026-08-29T19:12:43
+pay_00146,cust_064,merchant_03,2499,netbanking,success,,,0,not_required,0,2026-08-29T02:37:43
+pay_00147,cust_061,merchant_02,1999,card,success,,,0,not_required,0,2026-08-25T08:54:43
+pay_00148,cust_066,merchant_02,299,netbanking,success,,,0,not_required,0,2026-08-24T00:59:43
+pay_00149,cust_044,merchant_05,999,upi,success,,,0,not_required,0,2026-08-26T03:21:43
+pay_00150,cust_075,merchant_04,499,wallet,failed,INSUFFICIENT_FUNDS,Customer account has insufficient funds,0,pending,0,2026-08-24T04:23:43
+pay_00151,cust_043,merchant_05,2499,wallet,success,,,0,not_required,0,2026-08-26T22:25:43
+pay_00152,cust_025,merchant_02,4999,wallet,success,,,0,not_required,0,2026-08-27T04:47:43
+pay_00153,cust_041,merchant_04,1499,wallet,failed,CUSTOMER_ABANDONED,Customer abandoned the payment flow,0,pending,0,2026-08-30T08:44:43
+pay_00154,cust_064,merchant_01,499,netbanking,success,,,0,not_required,0,2026-08-29T03:07:43
+pay_00155,cust_013,merchant_05,1999,upi,success,,,0,not_required,0,2026-08-25T20:26:43
+pay_00156,cust_020,merchant_01,1999,netbanking,success,,,0,not_required,0,2026-08-26T04:42:43
+pay_00157,cust_011,merchant_03,2499,wallet,success,,,0,not_required,0,2026-08-26T08:07:43
+pay_00158,cust_070,merchant_01,4999,upi,success,,,0,not_required,0,2026-08-25T07:25:43
+pay_00159,cust_012,merchant_04,299,upi,failed,INSUFFICIENT_FUNDS,Customer account has insufficient funds,0,pending,0,2026-08-28T06:32:43
+pay_00160,cust_004,merchant_01,1299,upi,success,,,0,not_required,0,2026-08-27T10:53:43
+pay_00161,cust_019,merchant_02,2499,wallet,failed,INSUFFICIENT_FUNDS,Customer account has insufficient funds,0,pending,0,2026-08-25T23:03:43
+pay_00162,cust_022,merchant_02,299,wallet,success,,,0,not_required,0,2026-08-28T19:29:43
+pay_00163,cust_064,merchant_05,499,card,success,,,0,not_required,0,2026-08-28T02:54:43
+pay_00164,cust_059,merchant_03,199,wallet,success,,,0,not_required,0,2026-08-27T23:18:43
+pay_00165,cust_021,merchant_01,1999,netbanking,success,,,0,not_required,0,2026-08-24T15:24:43
+pay_00166,cust_055,merchant_03,1999,netbanking,success,,,0,not_required,0,2026-08-27T10:58:43
+pay_00167,cust_014,merchant_02,1499,netbanking,failed,CUSTOMER_ABANDONED,Customer abandoned the payment flow,0,pending,0,2026-08-25T08:43:43
+pay_00168,cust_003,merchant_04,999,upi,success,,,0,not_required,0,2026-08-27T12:02:43
+pay_00169,cust_078,merchant_04,999,card,success,,,0,not_required,0,2026-08-30T07:16:43
+pay_00170,cust_029,merchant_02,4999,netbanking,success,,,0,not_required,0,2026-08-26T20:27:43
+pay_00171,cust_013,merchant_01,999,wallet,success,,,0,not_required,0,2026-08-29T07:19:43
+pay_00172,cust_012,merchant_03,1299,wallet,failed,INSUFFICIENT_FUNDS,Customer account has insufficient funds,0,pending,0,2026-08-29T08:46:43
+pay_00173,cust_047,merchant_05,2499,netbanking,failed,GATEWAY_ERROR,Payment gateway temporarily unavailable,0,pending,0,2026-08-24T17:22:43
+pay_00174,cust_062,merchant_03,1299,upi,success,,,0,not_required,0,2026-08-27T22:29:43
+pay_00175,cust_019,merchant_02,1499,netbanking,success,,,0,not_required,0,2026-08-30T00:06:43
+pay_00176,cust_034,merchant_05,299,wallet,failed,CUSTOMER_ABANDONED,Customer abandoned the payment flow,0,pending,0,2026-08-30T16:51:43
+pay_00177,cust_075,merchant_04,1299,upi,success,,,0,not_required,0,2026-08-27T21:04:43
+pay_00178,cust_004,merchant_05,2499,netbanking,success,,,0,not_required,0,2026-08-25T11:55:43
+pay_00179,cust_009,merchant_04,999,wallet,success,,,0,not_required,0,2026-08-28T08:13:43
+pay_00180,cust_039,merchant_04,299,upi,failed,BANK_TIMEOUT,Temporary bank-side timeout,0,pending,0,2026-08-30T10:30:43
+pay_00181,cust_050,merchant_04,1299,wallet,failed,AUTH_FAILURE,Authentication or authorization failed,0,pending,0,2026-08-29T07:37:43
+pay_00182,cust_054,merchant_01,1999,wallet,success,,,0,not_required,0,2026-08-29T02:28:43
+pay_00183,cust_005,merchant_03,799,wallet,success,,,0,not_required,0,2026-08-27T16:16:43
+pay_00184,cust_047,merchant_01,1299,netbanking,success,,,0,not_required,0,2026-08-28T04:11:43
+pay_00185,cust_016,merchant_04,299,card,failed,INSUFFICIENT_FUNDS,Customer account has insufficient funds,0,pending,0,2026-08-28T16:50:43
+pay_00186,cust_003,merchant_01,1299,card,success,,,0,not_required,0,2026-08-24T01:36:43
+pay_00187,cust_027,merchant_01,2499,card,success,,,0,not_required,0,2026-08-24T10:29:43
+pay_00188,cust_043,merchant_02,4999,upi,success,,,0,not_required,0,2026-08-28T05:02:43
+pay_00189,cust_070,merchant_03,499,upi,failed,GATEWAY_ERROR,Payment gateway temporarily unavailable,0,pending,0,2026-08-29T09:10:43
+pay_00190,cust_017,merchant_01,1299,card,success,,,0,not_required,0,2026-08-30T13:37:43
+pay_00191,cust_023,merchant_03,199,card,success,,,0,not_required,0,2026-08-30T16:21:43
+pay_00192,cust_015,merchant_01,1999,wallet,success,,,0,not_required,0,2026-08-24T21:00:43
+pay_00193,cust_076,merchant_01,1999,card,success,,,0,not_required,0,2026-08-25T00:31:43
+pay_00194,cust_067,merchant_03,1999,upi,success,,,0,not_required,0,2026-08-30T08:49:43
+pay_00195,cust_055,merchant_01,1999,wallet,failed,CUSTOMER_ABANDONED,Customer abandoned the payment flow,0,pending,0,2026-08-26T06:59:43
+pay_00196,cust_078,merchant_02,299,card,failed,BANK_TIMEOUT,Temporary bank-side timeout,0,pending,0,2026-08-27T04:42:43
+pay_00197,cust_042,merchant_04,4999,netbanking,failed,AUTH_FAILURE,Authentication or authorization failed,0,pending,0,2026-08-24T14:55:43
+pay_00198,cust_056,merchant_01,299,card,success,,,0,not_required,0,2026-08-23T23:20:43
+pay_00199,cust_053,merchant_03,1999,wallet,success,,,0,not_required,0,2026-08-28T06:16:43
+pay_00200,cust_041,merchant_04,1299,netbanking,success,,,0,not_required,0,2026-08-29T18:42:43

@@ -19,3 +19,6 @@ recoverai/
 ├── .gitignore
 ├── requirements.txt
 └── README.md
+
+
+http://localhost:5500/dashboard/test_checkout.html

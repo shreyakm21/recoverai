@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RecoverAI Razorpay Test</title>
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+</head>
+
+<body>
+
+<h2>RecoverAI - Razorpay Test Payment</h2>
+
+<button id="pay-button">
+    Pay ₹199
+</button>
+
+<p id="status"></p>
+
+<script>
+    const RECOVERAI_PAYMENT_ID = "pay_00003";
+
+    const options = {
+        key: "rzp_test_TWM0CNN8Tiw79c",
+
+        amount: 19900,
+
+        currency: "INR",
+
+        name: "RecoverAI",
+
+        description: "Recovery payment test",
+
+        order_id: "order_TX55iRgpaKRKmn",
+
+        handler: async function (response) {
+
+            document.getElementById("status").innerText =
+                "Payment completed. Verifying with RecoverAI...";
+
+            try {
+                const verificationResponse = await fetch(
+                    "http://127.0.0.1:8000/razorpay/verify",
+                    {
+                        method: "POST",
+
+                        headers: {
+                            "Content-Type": "application/json"
+                        },
+
+                        body: JSON.stringify({
+                            recoverai_payment_id: RECOVERAI_PAYMENT_ID,
+                            razorpay_order_id: response.razorpay_order_id,
+                            razorpay_payment_id: response.razorpay_payment_id,
+                            razorpay_signature: response.razorpay_signature
+                        })
+                    }
+                );
+
+                const result = await verificationResponse.json();
+
+                if (!verificationResponse.ok) {
+                    console.error(result);
+
+                    document.getElementById("status").innerText =
+                        "Verification failed.";
+
+                    alert(
+                        "Payment completed, but RecoverAI verification failed."
+                    );
+
+                    return;
+                }
+
+                console.log(result);
+
+                document.getElementById("status").innerText =
+                    "Payment verified and recovered successfully.";
+
+                alert(
+                    "RecoverAI Recovery Successful!\n\n" +
+                    "Payment ID: " + result.razorpay_payment_id +
+                    "\nRecovered Amount: ₹" + result.recovered_amount
+                );
+
+            } catch (error) {
+
+                console.error(error);
+
+                document.getElementById("status").innerText =
+                    "Unable to reach RecoverAI backend.";
+            }
+        },
+
+        theme: {
+            color: "#3399cc"
+        }
+    };
+
+    const razorpay = new Razorpay(options);
+
+    document
+        .getElementById("pay-button")
+        .onclick = function (event) {
+
+            razorpay.open();
+            event.preventDefault();
+        };
+</script>
+
+</body>
+</html>

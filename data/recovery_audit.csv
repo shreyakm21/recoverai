@@ -1,0 +1,55 @@
+payment_id,customer_id,merchant_id,amount,payment_method,failure_code,failure_reason,recommended_action,action_allowed,decision_reason,retry_count,recovery_result,recovered_amount,processed_at
+pay_00003,cust_065,merchant_05,199,card,GATEWAY_ERROR,Payment gateway temporarily unavailable,RETRY,True,Gateway error may be temporary,0,RECOVERED,199,2026-08-31T10:53:44
+pay_00006,cust_012,merchant_04,299,netbanking,INSUFFICIENT_FUNDS,Customer account has insufficient funds,SEND_REMINDER,True,Immediate retry may fail again. Ask customer to retry later.,0,RECOVERED,299,2026-08-31T10:53:44
+pay_00011,cust_035,merchant_01,4999,card,INSUFFICIENT_FUNDS,Customer account has insufficient funds,SEND_REMINDER,True,Immediate retry may fail again. Ask customer to retry later.,0,RECOVERED,4999,2026-08-31T10:53:44
+pay_00022,cust_001,merchant_03,2499,card,GATEWAY_ERROR,Payment gateway temporarily unavailable,RETRY,True,Gateway error may be temporary,0,RECOVERED,2499,2026-08-31T10:53:44
+pay_00024,cust_068,merchant_01,4999,netbanking,GATEWAY_ERROR,Payment gateway temporarily unavailable,RETRY,True,Gateway error may be temporary,0,FAILED,0,2026-08-31T10:53:44
+pay_00026,cust_011,merchant_04,299,card,AUTH_FAILURE,Authentication or authorization failed,REAUTHENTICATE,False,Automatic retry is unsafe after authentication failure.,0,BLOCKED,0,2026-08-31T10:53:44
+pay_00027,cust_022,merchant_03,2499,wallet,CUSTOMER_ABANDONED,Customer abandoned the payment flow,SEND_PAYMENT_LINK,True,Customer abandoned checkout and may complete payment later.,0,RECOVERED,2499,2026-08-31T10:53:44
+pay_00030,cust_071,merchant_02,4999,card,BANK_TIMEOUT,Temporary bank-side timeout,RETRY,True,Temporary bank timeout is likely recoverable,0,RECOVERED,4999,2026-08-31T10:53:44
+pay_00031,cust_009,merchant_01,1299,upi,BANK_TIMEOUT,Temporary bank-side timeout,RETRY,True,Temporary bank timeout is likely recoverable,0,RECOVERED,1299,2026-08-31T10:53:44
+pay_00037,cust_060,merchant_02,299,wallet,GATEWAY_ERROR,Payment gateway temporarily unavailable,RETRY,True,Gateway error may be temporary,0,RECOVERED,299,2026-08-31T10:53:44
+pay_00040,cust_022,merchant_04,199,wallet,CUSTOMER_ABANDONED,Customer abandoned the payment flow,SEND_PAYMENT_LINK,True,Customer abandoned checkout and may complete payment later.,0,FAILED,0,2026-08-31T10:53:44
+pay_00041,cust_055,merchant_05,1999,card,CUSTOMER_ABANDONED,Customer abandoned the payment flow,SEND_PAYMENT_LINK,True,Customer abandoned checkout and may complete payment later.,0,FAILED,0,2026-08-31T10:53:44
+pay_00042,cust_075,merchant_05,199,netbanking,GATEWAY_ERROR,Payment gateway temporarily unavailable,RETRY,True,Gateway error may be temporary,0,RECOVERED,199,2026-08-31T10:53:44
+pay_00043,cust_065,merchant_05,499,upi,AUTH_FAILURE,Authentication or authorization failed,REAUTHENTICATE,False,Automatic retry is unsafe after authentication failure.,0,BLOCKED,0,2026-08-31T10:53:44
+pay_00048,cust_041,merchant_01,199,wallet,INSUFFICIENT_FUNDS,Customer account has insufficient funds,SEND_REMINDER,True,Immediate retry may fail again. Ask customer to retry later.,0,FAILED,0,2026-08-31T10:53:44
+pay_00051,cust_039,merchant_05,2499,upi,CUSTOMER_ABANDONED,Customer abandoned the payment flow,SEND_PAYMENT_LINK,True,Customer abandoned checkout and may complete payment later.,0,RECOVERED,2499,2026-08-31T10:53:44
+pay_00053,cust_020,merchant_03,999,card,BANK_TIMEOUT,Temporary bank-side timeout,RETRY,True,Temporary bank timeout is likely recoverable,0,FAILED,0,2026-08-31T10:53:44
+pay_00056,cust_021,merchant_04,2499,wallet,GATEWAY_ERROR,Payment gateway temporarily unavailable,RETRY,True,Gateway error may be temporary,0,RECOVERED,2499,2026-08-31T10:53:44
+pay_00059,cust_046,merchant_02,799,upi,INSUFFICIENT_FUNDS,Customer account has insufficient funds,SEND_REMINDER,True,Immediate retry may fail again. Ask customer to retry later.,0,FAILED,0,2026-08-31T10:53:44
+pay_00067,cust_014,merchant_05,1499,netbanking,INSUFFICIENT_FUNDS,Customer account has insufficient funds,SEND_REMINDER,True,Immediate retry may fail again. Ask customer to retry later.,0,FAILED,0,2026-08-31T10:53:44
+pay_00070,cust_047,merchant_04,299,netbanking,AUTH_FAILURE,Authentication or authorization failed,REAUTHENTICATE,False,Automatic retry is unsafe after authentication failure.,0,BLOCKED,0,2026-08-31T10:53:44
+pay_00087,cust_035,merchant_03,1299,upi,INSUFFICIENT_FUNDS,Customer account has insufficient funds,SEND_REMINDER,True,Immediate retry may fail again. Ask customer to retry later.,0,RECOVERED,1299,2026-08-31T10:53:44
+pay_00088,cust_020,merchant_02,299,wallet,GATEWAY_ERROR,Payment gateway temporarily unavailable,RETRY,True,Gateway error may be temporary,0,RECOVERED,299,2026-08-31T10:53:44
+pay_00095,cust_007,merchant_03,1499,netbanking,CUSTOMER_ABANDONED,Customer abandoned the payment flow,SEND_PAYMENT_LINK,True,Customer abandoned checkout and may complete payment later.,0,FAILED,0,2026-08-31T10:53:44
+pay_00096,cust_049,merchant_03,1499,netbanking,INSUFFICIENT_FUNDS,Customer account has insufficient funds,SEND_REMINDER,True,Immediate retry may fail again. Ask customer to retry later.,0,RECOVERED,1499,2026-08-31T10:53:44
+pay_00098,cust_004,merchant_02,799,upi,BANK_TIMEOUT,Temporary bank-side timeout,RETRY,True,Temporary bank timeout is likely recoverable,0,FAILED,0,2026-08-31T10:53:44
+pay_00109,cust_060,merchant_05,4999,wallet,CUSTOMER_ABANDONED,Customer abandoned the payment flow,SEND_PAYMENT_LINK,True,Customer abandoned checkout and may complete payment later.,0,FAILED,0,2026-08-31T10:53:44
+pay_00114,cust_032,merchant_03,4999,netbanking,GATEWAY_ERROR,Payment gateway temporarily unavailable,RETRY,True,Gateway error may be temporary,0,FAILED,0,2026-08-31T10:53:44
+pay_00117,cust_016,merchant_05,499,card,GATEWAY_ERROR,Payment gateway temporarily unavailable,RETRY,True,Gateway error may be temporary,0,RECOVERED,499,2026-08-31T10:53:44
+pay_00118,cust_076,merchant_05,4999,netbanking,CUSTOMER_ABANDONED,Customer abandoned the payment flow,SEND_PAYMENT_LINK,True,Customer abandoned checkout and may complete payment later.,0,RECOVERED,4999,2026-08-31T10:53:44
+pay_00124,cust_020,merchant_05,999,upi,BANK_TIMEOUT,Temporary bank-side timeout,RETRY,True,Temporary bank timeout is likely recoverable,0,RECOVERED,999,2026-08-31T10:53:44
+pay_00128,cust_031,merchant_02,2499,upi,BANK_TIMEOUT,Temporary bank-side timeout,RETRY,True,Temporary bank timeout is likely recoverable,0,RECOVERED,2499,2026-08-31T10:53:44
+pay_00129,cust_077,merchant_04,999,upi,CUSTOMER_ABANDONED,Customer abandoned the payment flow,SEND_PAYMENT_LINK,True,Customer abandoned checkout and may complete payment later.,0,RECOVERED,999,2026-08-31T10:53:44
+pay_00130,cust_010,merchant_02,999,card,INSUFFICIENT_FUNDS,Customer account has insufficient funds,SEND_REMINDER,True,Immediate retry may fail again. Ask customer to retry later.,0,FAILED,0,2026-08-31T10:53:44
+pay_00132,cust_077,merchant_05,999,wallet,GATEWAY_ERROR,Payment gateway temporarily unavailable,RETRY,True,Gateway error may be temporary,0,RECOVERED,999,2026-08-31T10:53:44
+pay_00133,cust_035,merchant_05,2499,wallet,INSUFFICIENT_FUNDS,Customer account has insufficient funds,SEND_REMINDER,True,Immediate retry may fail again. Ask customer to retry later.,0,FAILED,0,2026-08-31T10:53:44
+pay_00135,cust_076,merchant_01,999,upi,GATEWAY_ERROR,Payment gateway temporarily unavailable,RETRY,True,Gateway error may be temporary,0,FAILED,0,2026-08-31T10:53:44
+pay_00137,cust_063,merchant_01,1999,netbanking,AUTH_FAILURE,Authentication or authorization failed,REAUTHENTICATE,False,Automatic retry is unsafe after authentication failure.,0,BLOCKED,0,2026-08-31T10:53:44
+pay_00140,cust_015,merchant_04,2499,upi,INSUFFICIENT_FUNDS,Customer account has insufficient funds,SEND_REMINDER,True,Immediate retry may fail again. Ask customer to retry later.,0,FAILED,0,2026-08-31T10:53:44
+pay_00150,cust_075,merchant_04,499,wallet,INSUFFICIENT_FUNDS,Customer account has insufficient funds,SEND_REMINDER,True,Immediate retry may fail again. Ask customer to retry later.,0,FAILED,0,2026-08-31T10:53:44
+pay_00153,cust_041,merchant_04,1499,wallet,CUSTOMER_ABANDONED,Customer abandoned the payment flow,SEND_PAYMENT_LINK,True,Customer abandoned checkout and may complete payment later.,0,RECOVERED,1499,2026-08-31T10:53:44
+pay_00159,cust_012,merchant_04,299,upi,INSUFFICIENT_FUNDS,Customer account has insufficient funds,SEND_REMINDER,True,Immediate retry may fail again. Ask customer to retry later.,0,RECOVERED,299,2026-08-31T10:53:44
+pay_00161,cust_019,merchant_02,2499,wallet,INSUFFICIENT_FUNDS,Customer account has insufficient funds,SEND_REMINDER,True,Immediate retry may fail again. Ask customer to retry later.,0,FAILED,0,2026-08-31T10:53:44
+pay_00167,cust_014,merchant_02,1499,netbanking,CUSTOMER_ABANDONED,Customer abandoned the payment flow,SEND_PAYMENT_LINK,True,Customer abandoned checkout and may complete payment later.,0,RECOVERED,1499,2026-08-31T10:53:44
+pay_00172,cust_012,merchant_03,1299,wallet,INSUFFICIENT_FUNDS,Customer account has insufficient funds,SEND_REMINDER,True,Immediate retry may fail again. Ask customer to retry later.,0,FAILED,0,2026-08-31T10:53:44
+pay_00173,cust_047,merchant_05,2499,netbanking,GATEWAY_ERROR,Payment gateway temporarily unavailable,RETRY,True,Gateway error may be temporary,0,RECOVERED,2499,2026-08-31T10:53:44
+pay_00176,cust_034,merchant_05,299,wallet,CUSTOMER_ABANDONED,Customer abandoned the payment flow,SEND_PAYMENT_LINK,True,Customer abandoned checkout and may complete payment later.,0,FAILED,0,2026-08-31T10:53:44
+pay_00180,cust_039,merchant_04,299,upi,BANK_TIMEOUT,Temporary bank-side timeout,RETRY,True,Temporary bank timeout is likely recoverable,0,FAILED,0,2026-08-31T10:53:44
+pay_00181,cust_050,merchant_04,1299,wallet,AUTH_FAILURE,Authentication or authorization failed,REAUTHENTICATE,False,Automatic retry is unsafe after authentication failure.,0,BLOCKED,0,2026-08-31T10:53:44
+pay_00185,cust_016,merchant_04,299,card,INSUFFICIENT_FUNDS,Customer account has insufficient funds,SEND_REMINDER,True,Immediate retry may fail again. Ask customer to retry later.,0,FAILED,0,2026-08-31T10:53:44
+pay_00189,cust_070,merchant_03,499,upi,GATEWAY_ERROR,Payment gateway temporarily unavailable,RETRY,True,Gateway error may be temporary,0,RECOVERED,499,2026-08-31T10:53:44
+pay_00195,cust_055,merchant_01,1999,wallet,CUSTOMER_ABANDONED,Customer abandoned the payment flow,SEND_PAYMENT_LINK,True,Customer abandoned checkout and may complete payment later.,0,RECOVERED,1999,2026-08-31T10:53:44
+pay_00196,cust_078,merchant_02,299,card,BANK_TIMEOUT,Temporary bank-side timeout,RETRY,True,Temporary bank timeout is likely recoverable,0,RECOVERED,299,2026-08-31T10:53:44
+pay_00197,cust_042,merchant_04,4999,netbanking,AUTH_FAILURE,Authentication or authorization failed,REAUTHENTICATE,False,Automatic retry is unsafe after authentication failure.,0,BLOCKED,0,2026-08-31T10:53:44
